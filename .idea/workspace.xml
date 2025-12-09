@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50f3cdb0-adcd-4fc1-bd9b-72bed90d78b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Python Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/test_delete_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/test_delete_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/test_get_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/test_get_contactlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/test_patch_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/test_post_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/test_post_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/test_put_contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/globals_api.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="36YYhyvfXyDCpJcBvpuUkDdhW4K" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in conftest.py.executor": "Run",
+    "Python tests.Python tests in test_delete_contact.py.executor": "Run",
+    "Python tests.Python tests in test_delete_user.py.executor": "Run",
+    "Python tests.Python tests in test_get_contact.py.executor": "Run",
+    "Python tests.Python tests in test_get_contactlist.py.executor": "Run",
+    "Python tests.Python tests in test_patch_contact.py.executor": "Run",
+    "Python tests.Python tests in test_post_contact.py.executor": "Run",
+    "Python tests.Python tests in test_post_user.py.executor": "Run",
+    "Python.test_post_user.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AaliyahAdams\Python Projects" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50f3cdb0-adcd-4fc1-bd9b-72bed90d78b2" name="Changes" comment="" />
+      <created>1765185094581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765185094581</updated>
+    </task>
+    <servers />
+  </component>
+</project>

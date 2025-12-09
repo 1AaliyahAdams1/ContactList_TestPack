@@ -1,0 +1,12 @@
+Libraries needed:
+- pip install pytest
+- pip install requests
+
+Important note :
+- Delete contact doesn't work due to 503 service unavailable
+- Put contact doesn't work due to 503 service unavailable
+- Patch contact doesn't work due to 503 service unavailable
+
+Future additions :
+- Allure framework
+- loggers framework
