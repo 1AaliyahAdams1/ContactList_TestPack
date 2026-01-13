@@ -1,7 +1,10 @@
+import allure
 import requests
 import pytest
 import globals_api
 
+@allure.title("Get Contact API")
+@allure.description("Testing getting a singular contact")
 @pytest.mark.regression_test
 def test_get_contact(test_token, test_user):
     token = test_token

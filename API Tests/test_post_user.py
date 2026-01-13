@@ -1,7 +1,10 @@
+import allure
 import requests
 import pytest
 import globals_api
 
+@allure.title("Post User API")
+@allure.description("Testing creating a user")
 @pytest.mark.smoke_test
 def test_post_user():
     request_json ={

@@ -1,7 +1,10 @@
+import allure
 import requests
 import pytest
 import globals_api
 
+@allure.title("Put Contact API")
+@allure.description("Testing updating a contact API - will always fail")
 @pytest.mark.xfail(reason="Put contact fails")
 @pytest.mark.regression_test
 def test_put_contact(test_token, test_user):

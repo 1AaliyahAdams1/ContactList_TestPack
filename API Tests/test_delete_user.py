@@ -1,7 +1,10 @@
+import allure
 import requests
 import pytest
 import globals_api
 
+@allure.title("Delete User API")
+@allure.description("Testing deleting a user")
 @pytest.mark.smoke_test
 def test_delete_user(test_token):
 

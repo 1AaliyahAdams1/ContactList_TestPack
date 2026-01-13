@@ -1,7 +1,12 @@
+import allure
 import requests
 import pytest
 import globals_api
 
+@allure.title("Get ContactList API")
+@allure.description("Testing Getting contact list")
+@allure.suite("Suite")
+@allure.suite("Suite")
 @pytest.mark.regression_test
 def test_get_contactlist(test_token, test_user):
 
