@@ -5,18 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f3cdb0-adcd-4fc1-bd9b-72bed90d78b2" name="Changes" comment="API tests completed">
-      <change beforePath="$PROJECT_DIR$/.idea/Python Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python Projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/Playwright/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/Playwright/test_delete_contact_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/Playwright/test_delete_user_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/Playwright/test_get_contact_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/Playwright/test_get_contactlist_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/Playwright/test_patch_contact_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/Playwright/test_post_contact_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/Playwright/test_post_user_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API Tests/Playwright/test_put_contact_pw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/README" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/test_delete_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/test_delete_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/test_delete_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/test_delete_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/test_get_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/test_get_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/test_get_contactlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/test_get_contactlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/test_patch_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/test_patch_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/test_post_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/test_post_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/test_post_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/test_post_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/test_put_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/test_put_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API Tests/README" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API Tests/test_delete_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_delete_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API Tests/test_delete_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_delete_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API Tests/test_get_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_get_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API Tests/test_get_contactlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_get_contactlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API Tests/test_patch_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_patch_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API Tests/test_post_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_post_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API Tests/test_post_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_post_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API Tests/test_put_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_put_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/globals_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/globals_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,28 +71,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in conftest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_delete_contact.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_delete_user.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_get_contact.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_get_contactlist.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_patch_contact.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_post_contact.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_post_user.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_post_user.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/AaliyahAdams/ContactList_TestPack&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in conftest.py.executor": "Run",
+    "Python tests.Python tests in test-post-user.py.executor": "Run",
+    "Python tests.Python tests in test_delete_contact.py.executor": "Run",
+    "Python tests.Python tests in test_delete_contact_pw.py.executor": "Run",
+    "Python tests.Python tests in test_delete_user.py.executor": "Run",
+    "Python tests.Python tests in test_delete_user_pw.py.executor": "Run",
+    "Python tests.Python tests in test_get_contact.py.executor": "Run",
+    "Python tests.Python tests in test_get_contact_pw.py.executor": "Run",
+    "Python tests.Python tests in test_get_contactlist.py.executor": "Run",
+    "Python tests.Python tests in test_get_contactlist_pw.py.executor": "Run",
+    "Python tests.Python tests in test_patch_contact.py.executor": "Run",
+    "Python tests.Python tests in test_patch_contact_pw.py.executor": "Run",
+    "Python tests.Python tests in test_post_contact.py.executor": "Run",
+    "Python tests.Python tests in test_post_contact_pw.py.executor": "Run",
+    "Python tests.Python tests in test_post_user.py.executor": "Run",
+    "Python tests.Python tests in test_post_user_pw.py.executor": "Run",
+    "Python tests.Python tests in test_put_contact.py.executor": "Run",
+    "Python tests.Python tests in test_put_contact_pw.py.executor": "Run",
+    "Python.test_post_user.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/AaliyahAdams/ContactList_TestPack",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AaliyahAdams\ContactList_TestPack\API Tests\Pytest" />
       <recent name="C:\Users\AaliyahAdams\Python Projects" />
     </key>
   </component>

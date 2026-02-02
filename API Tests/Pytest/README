@@ -9,8 +9,8 @@ Important note :
 - Patch contact doesn't work due to 503 service unavailable
 
 Commands to know :
- pytest -m regression_test
- pytest -m smoke_test
+ pytest -m regression_test OR python -m pytest -m regression_test
+ pytest -m smoke_test OR python -m pytest -m smoke_test
  pytest -m regression_test --alluredir=allure-results
  allure serve allure-results
  allure generate allure-results

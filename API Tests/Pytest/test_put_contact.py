@@ -5,7 +5,7 @@ import globals_api
 
 @allure.title("Put Contact API")
 @allure.description("Testing updating a contact API - will always fail")
-@pytest.mark.xfail(reason="Put contact fails")
+#@pytest.mark.xfail(reason="Put contact fails")
 @pytest.mark.regression_test
 def test_put_contact(test_token, test_user):
     token = test_token
@@ -31,8 +31,6 @@ def test_put_contact(test_token, test_user):
                            url=globals_api.put_contact,
                            headers=header,
                            json=request_json)
-
-    #print(req.json())
 
     assert req.status_code == 200, "API Call Failed"
 

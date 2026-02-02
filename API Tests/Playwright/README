@@ -1,0 +1,12 @@
+Required packages:
+- pip install playwright pytest-playwright
+- python -m playwright install
+
+Important note :
+- Delete contact doesn't work due to 503 service unavailable
+- Patch contact doesn't work due to 503 service unavailable
+- Put contact doesn't work due to 503 service unavailable
+
+Commands :
+- python -m pytest -m regressiontest
+- python -m pytest -m smoketest

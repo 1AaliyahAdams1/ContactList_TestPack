@@ -1,6 +1,6 @@
 #global Api variables
 import random
-
+base_url = "https://thinking-tester-contact-list.herokuapp.com"
 get_contact = "https://thinking-tester-contact-list.herokuapp.com/contacts/"
 get_contactlist = "https://thinking-tester-contact-list.herokuapp.com/contacts"
 post_contact = "https://thinking-tester-contact-list.herokuapp.com/contacts"
