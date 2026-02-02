@@ -15,6 +15,3 @@ Commands to know :
  allure serve allure-results
  allure generate allure-results
  python -m venv .venv
-
-Future additions :
-- loggers framework

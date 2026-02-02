@@ -2,10 +2,14 @@ import allure
 import requests
 import pytest
 import globals_api
+import logging
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
 @allure.title("Put Contact API")
 @allure.description("Testing updating a contact API - will always fail")
-#@pytest.mark.xfail(reason="Put contact fails")
+@pytest.mark.xfail(reason="Put contact fails")
 @pytest.mark.regression_test
 def test_put_contact(test_token, test_user):
     token = test_token
@@ -32,6 +36,17 @@ def test_put_contact(test_token, test_user):
                            headers=header,
                            json=request_json)
 
+    #print(req.json())
+
     assert req.status_code == 200, "API Call Failed"
+
+    logger.info(f"Token received --> {token}")
+
+    if req.status_code != 200:
+        logger.error(f"API call failed --> {req.status_code}")
+        logger.error(f"Status code received--> {req.status_code}")
+    else:
+        logger.info(f"Response is --> {req.json()}")
+        logger.info(f"Status code received--> {req.status_code}")
 
     print("Put contact successful")

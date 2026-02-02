@@ -2,6 +2,10 @@ import allure
 import requests
 import pytest
 import globals_api
+import logging
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
 @allure.title("Post Contact API")
 @allure.description("Testing creating a contact")
@@ -35,5 +39,14 @@ def test_post_contact(test_token, test_user):
     print(req.json())
 
     assert req.status_code == 201, "API Call Failed"
+
+    logger.info(f"Token received --> {token}")
+
+    if req.status_code != 201:
+        logger.error(f"API call failed --> {req.status_code}")
+        logger.error(f"Status code received--> {req.status_code}")
+    else:
+        logger.info(f"Response is --> {req.json()}")
+        logger.info(f"Status code received--> {req.status_code}")
 
     print("Post contact successful")
