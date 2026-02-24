@@ -1,0 +1,9 @@
+Packages installed:
+- pip install robotframework
+- pip install robotframework-seleniumlibrary
+
+Plugins Needed:
+- Hyper RobotFramework Support
+
+Commands to know:
+- robot UI-Tests/Selenium/Robot-Tests

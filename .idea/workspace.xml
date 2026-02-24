@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f3cdb0-adcd-4fc1-bd9b-72bed90d78b2" name="Changes" comment="API tests completed in Playwright">
+    <list default="true" id="50f3cdb0-adcd-4fc1-bd9b-72bed90d78b2" name="Changes" comment="Added Loggers to Pytest tests">
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Playwright/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Playwright/test_google_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Playwright/test_login_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Playwright/test_register_pw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/Pytest-Tests/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/Pytest-Tests/test_google.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/Pytest-Tests/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/Pytest-Tests/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/Robot-Tests/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/Robot-Tests/test_google.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/Robot-Tests/test_login.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/Robot-Tests/test_register.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI-Tests/Selenium/Robot-Tests/utils.resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/globals_ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/Pytest/README" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/Pytest/test_delete_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_delete_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/Pytest/test_delete_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_delete_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/Pytest/test_get_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_get_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/Pytest/test_get_contactlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_get_contactlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/Pytest/test_patch_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_patch_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/Pytest/test_post_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_post_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/Pytest/test_post_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_post_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API Tests/Pytest/test_put_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/API Tests/Pytest/test_put_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +70,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in NavigationSmokeTest.py.executor": "Run",
     "Python tests.Python tests in conftest.py.executor": "Run",
     "Python tests.Python tests in test-post-user.py.executor": "Run",
     "Python tests.Python tests in test_delete_contact.py.executor": "Run",
@@ -73,6 +81,10 @@
     "Python tests.Python tests in test_get_contact_pw.py.executor": "Run",
     "Python tests.Python tests in test_get_contactlist.py.executor": "Run",
     "Python tests.Python tests in test_get_contactlist_pw.py.executor": "Run",
+    "Python tests.Python tests in test_google.py.executor": "Run",
+    "Python tests.Python tests in test_google_pw.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_login_pw.py.executor": "Run",
     "Python tests.Python tests in test_patch_contact.py.executor": "Run",
     "Python tests.Python tests in test_patch_contact_pw.py.executor": "Run",
     "Python tests.Python tests in test_post_contact.py.executor": "Run",
@@ -81,22 +93,78 @@
     "Python tests.Python tests in test_post_user_pw.py.executor": "Run",
     "Python tests.Python tests in test_put_contact.py.executor": "Run",
     "Python tests.Python tests in test_put_contact_pw.py.executor": "Run",
+    "Python tests.Python tests in test_register.py.executor": "Run",
+    "Python tests.Python tests in test_register_pw.py.executor": "Run",
+    "Python.GoogleSmokeTest.executor": "Run",
+    "Python.NavigationSmokeTest.executor": "Run",
+    "Python.NavigationTest.executor": "Run",
+    "Python.Run Pytest Tests.executor": "Run",
+    "Python.Run Robot Tests.executor": "Run",
     "Python.test_post_user.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/AaliyahAdams/ContactList_TestPack",
-    "settings.editor.selected.configurable": "terminal"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AaliyahAdams\ContactList_TestPack\UI-Tests\Selenium\Pytest-Tests" />
+      <recent name="C:\Users\AaliyahAdams\ContactList_TestPack\UI-Tests\Selenium\Robot-Tests" />
+      <recent name="C:\Users\AaliyahAdams\ContactList_TestPack\API Tests" />
       <recent name="C:\Users\AaliyahAdams\ContactList_TestPack\API Tests\Pytest" />
       <recent name="C:\Users\AaliyahAdams\Python Projects" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Run Pytest Tests" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python Projects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 virtualenv at C:\Users\AaliyahAdams\ContactList_TestPack\.venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="-m pytest" />
+      <option name="PARAMETERS" value="API Tests" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Robot Tests" type="PythonConfigurationType" factoryName="Python">
+      <module name="Python Projects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 virtualenv at C:\Users\AaliyahAdams\ContactList_TestPack\.venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="-m robot" />
+      <option name="PARAMETERS" value="Selenium/test_google.robot" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ContactList_TestPack" />
       <option name="ENV_FILES" value="" />
@@ -165,6 +233,10 @@
       <option name="docutils_open_in_browser" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Run Pytest Tests" />
+      <item itemvalue="Python.Run Robot Tests" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -205,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770024470995</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Loggers to Pytest tests">
+      <option name="closed" value="true" />
+      <created>1770025361280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770025361280</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +308,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API tests completed" />
     <MESSAGE value="API tests completed in Playwright" />
-    <option name="LAST_COMMIT_MESSAGE" value="API tests completed in Playwright" />
+    <MESSAGE value="Added Loggers to Pytest tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Loggers to Pytest tests" />
   </component>
 </project>

@@ -1,15 +1,20 @@
-from email.base64mime import header_length
 
 pytest_plugins = ["pytest_playwright"]
 
 import requests
 import pytest
 import globals_api
-from playwright.sync_api import Playwright, APIRequestContext
+from playwright.sync_api import Playwright, APIRequestContext, sync_playwright
 from typing import Generator
 
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+import globals_ui
+
 #====================================================================
-#Fixtures for pytest tests
+#Fixtures for Pytest API tests
 #====================================================================
 
 @pytest.fixture
@@ -57,7 +62,7 @@ def test_token():
     return token
 
 #====================================================================
-# Fixtures for Playwright tests
+# Fixtures for Playwright API tests
 #====================================================================
 @pytest.fixture
 def api_request_context(playwright : Playwright,) -> Generator[APIRequestContext, None, None]:
@@ -108,3 +113,34 @@ def test_user_pw(api_request_context: APIRequestContext, test_token_pw):
 
     assert response.ok is True
     print("User Deleted")
+
+#====================================================================
+#Fixtures for Selenium UI tests
+#====================================================================
+@pytest.fixture
+def setUp():
+    # Driver Setup
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service)
+    driver.get(globals_ui.website_url)
+    globals_ui.global_driver = driver
+    globals_ui.global_driver.implicitly_wait(5)
+
+    return globals_ui.global_driver
+
+@pytest.fixture
+def tearDown(setUp):
+    yield
+    # Quits Driver
+
+    globals_ui.global_driver.quit()
+
+#====================================================================
+# Fixtures for Playwright UI tests
+#====================================================================
+@pytest.fixture
+def browser():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        yield browser
+        browser.close()

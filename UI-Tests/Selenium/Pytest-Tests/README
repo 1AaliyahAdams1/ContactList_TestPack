@@ -1,0 +1,6 @@
+Packages installed:
+- pip install selenium
+
+Commands to know:
+- pytest -m regressiontest_s
+- pytest -m smoketest_s
